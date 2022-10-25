@@ -19,7 +19,8 @@ th, td {
     padding: 10px;
   }
 
-img {
+img{
+
     border-radius: 50%;
 }
 
@@ -33,3 +34,7 @@ table{
     left: 22%;
     position: fixed;
    }
+
+img:hover {-webkit-transform:scale(1.3);transform:scale(1.3);
+    transition: 0.5s;
+}
